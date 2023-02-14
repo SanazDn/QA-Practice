@@ -1,4 +1,3 @@
-# Webdriver Tests
 ## Prerequisites
   * Docker
   + Git
@@ -42,15 +41,6 @@
   
 5. Open a Pull Request for Code Review.  
   
-  
-## Submission Rubrics
-
-### General Requirements
-1. All tests should contain @Test annotation.
-2. All tests should provide a setup and tear down mechanism that closes the browser.
-3. All tests should run successfully from IDE. Provide a way to run tests on unix based OS.
-
-
 ### Test Specific Rubrics
 
 1. Login Success
@@ -118,8 +108,5 @@
 17. Open in New Tab
     * Test clicks on the Click Here link.
     + Test asserts that a new tab is opened with text New Window.
-18. Notification Message
-    * Test clicks on the Click Here link a multiple times.
-    + Test asserts that one of the “Action Successful”, “Action unsuccessful, please try again” and “Action Unsuccessful” messages show on click.
 
  
