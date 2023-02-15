@@ -80,9 +80,6 @@
 9. Dynamic Loading
    * Test clicks the start button and uses explicit wait.
    + Test asserts that “Hello World!” text is displayed.
-10. File Download
-    * Test clicks on the file.
-    + Test asserts that the file is downloaded.
 11. File Upload
     * Test uses Upload Button or Drag and Drop to upload a file.
     + Test asserts that the file is uploaded.
