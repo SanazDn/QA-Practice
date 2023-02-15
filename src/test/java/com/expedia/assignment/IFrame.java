@@ -36,11 +36,16 @@ public class IFrame {
 
 		Actions action = new Actions(driver);
 		action.moveToElement(iframe.realmsg).click().perform();
-		action.sendKeys(Keys.DELETE).sendKeys(Keys.CONTROL, " Hi!").build().perform();
+		
+		//clear the text
+		iframe.realmsg.clear();
+		
+		//send message 
+		action.sendKeys(Keys.CONTROL, "Hi!").build().perform();
 
 		String realtext = iframe.realmsg.getText();
 		System.out.println(realtext);
-		String expText = "Your content goes here. Hi!";
+		String expText = "Hi!";
 
 		Thread.sleep(3000);
 
