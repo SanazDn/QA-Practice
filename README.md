@@ -34,8 +34,7 @@
     * Iframe: http://localhost:7080/iframe Test iframe.
     + Mouse Hover: http://localhost:7080/hovers Test Mouse Hover.
     - JavaScript Alerts: http://localhost:7080/javascript_alerts Test confirm JS Alert.
-    + Open in New Tab: http://localhost:7080/windows Test Link Opens in new tab.
-    - Notification Message: http://localhost:7080/notification_message_rendered Test notification Message.
+    
   
 5. Open a Pull Request for Code Review.  
   
@@ -78,30 +77,28 @@
 9. Dynamic Loading
    * Test clicks the start button and uses explicit wait.
    + Test asserts that “Hello World!” text is displayed.
-11. File Upload
+10. File Upload
     * Test uses Upload Button or Drag and Drop to upload a file.
     + Test asserts that the file is uploaded.
-12. Floating Menu
+11. Floating Menu
     * Test scrolls the page.
     + Test asserts that the floating menu is still displayed.
-13. Iframe
+12. Iframe
     * Test switches to Iframe and types some text.
     + Test asserts that the typed text is as expected.
-14. Mouse Hover
+13. Mouse Hover
     * Test does a mouse hover on each image.
     + Test asserts that additional information is displayed for each image.
-15. JavaScript Alerts
+14. JavaScript Alerts
     * Test Clicks on JS Alert Button.
     + Test asserts alert message.
     - Test clicks on JS confirm Button and clicks ok on alert.
     * Test asserts the alert message.
     + Test clicks on JS Prompt Button and types a message on Prompt.
     - Test asserts that the alert message contains the typed message.
-16. JavaScript Error
+15. JavaScript Error
     * Test finds the JavaScript error on the page.
     + Test asserts that the page contains error: Cannot read property 'xyz' of undefined.
-17. Open in New Tab
-    * Test clicks on the Click Here link.
-    + Test asserts that a new tab is opened with text New Window.
+
 
  
